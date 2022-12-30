@@ -1,0 +1,20 @@
+{
+  "name": "Google-Apps-Script-TypeScript-Boilerplate",
+  "version": "1.0.0",
+  "scripts": {
+    "watch": "concurrently yarn:watch:*",
+    "watch:build": " node ./bin/build.js",
+    "watch:clasp": "clasp push --watch"
+  },
+  "main": "./src/index.js",
+  "repository": "https://github.com/awb305/Google-Apps-Script-TypeScript-Boilerplate.git",
+  "author": "Andrew Bass <32249276+awb305@users.noreply.github.com>",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@types/google-apps-script": "^1.0.56",
+    "concurrently": "^7.6.0",
+    "esbuild": "^0.16.12",
+    "typescript": "3.8.2"
+  }
+}
